@@ -5,6 +5,11 @@ setup(
     version="0.1.0a1",
     packages=find_packages(),
     install_requires=[],
+    entry_points={
+        "console_scripts": [
+            "python_to_cpp=python_to_cpp.__main__:main",
+        ],
+    },
     author="Singhom931",
     description="Convert Python To C++",
     long_description=open("README.md").read(),
