@@ -12,9 +12,6 @@ on:
   release:
     types: [published]
 
-permissions:
-  contents: read
-
 jobs:
   release-build:
     runs-on: ubuntu-latest
@@ -51,7 +48,7 @@ jobs:
     environment:
       name: pypi
       # OPTIONAL: uncomment and update to include your PyPI project URL in the deployment status:
-      # url: https://pypi.org/p/YOURPROJECT
+      url: https://pypi.org/p/python_to_cpp
       #
       # ALTERNATIVE: if your GitHub Release name is the PyPI project version string
       # ALTERNATIVE: exactly, uncomment the following line instead:
