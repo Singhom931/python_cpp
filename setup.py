@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="python_cpp", 
+    name="python_to_cpp", 
     version="0.1.0a",
     packages=find_packages(),
     install_requires=[],
